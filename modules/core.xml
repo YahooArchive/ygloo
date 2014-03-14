@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- External native modules -->
+  <project path="external/jpeg-turbo" name="yahoo/ygloo-external-jpeg-turbo" revision="yahoo" />
+  <project path="external/expat" name="yahoo/ygloo-external-expat" revision="yahoo" />
+
+  <!-- Native SDK -->
+  <project path="framework/yosal" name="yahoo/ygloo-yosal" revision="master" />
+  <project path="framework/ymagine" name="yahoo/ygloo-ymagine" revision="master" />
+
+  <!-- Native components, only for building (not required for Build system -->
+  <!-- Build system -->
+  <project path="build" name="yahoo/ygloo-build" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+</manifest>
