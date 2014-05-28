@@ -2,6 +2,7 @@
 <manifest>
   <!-- External native modules -->
   <project path="external/jpeg-turbo" name="yahoo/ygloo-external-jpeg-turbo" revision="yahoo" />
+  <project path="external/webp" name="yahoo/ygloo-external-webp" revision="yahoo" />
   <project path="external/expat" name="yahoo/ygloo-external-expat" revision="yahoo" />
 
   <!-- Native SDK -->
