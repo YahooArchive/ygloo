@@ -8,4 +8,6 @@
            sync-j="4" />
 
   <include name="modules/core.xml" />
+  <include name="modules/ymagine.xml" />
+  <include name="modules/yperwave.xml" />
 </manifest>

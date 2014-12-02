@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- External native modules -->
+  <project path="external/curl" name="yahoo/ygloo-external-curl" revision="yahoo" />
+  <project path="external/axtls" name="yahoo/ygloo-external-axtls" revision="yahoo" />
+  <project path="external/openssl" name="yahoo/ygloo-external-openssl" revision="yahoo" />
+  <project path="external/jansson" name="yahoo/ygloo-external-jansson" revision="yahoo" />
+
+  <!-- Native SDK -->
+  <project path="framework/yperwave" name="yahoo/ygloo-yperwave" revision="master" />
+</manifest>

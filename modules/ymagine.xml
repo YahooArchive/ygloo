@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- External native modules -->
+  <project path="external/jpeg-turbo" name="yahoo/ygloo-external-jpeg-turbo" revision="yahoo" />
+  <project path="external/webp" name="yahoo/ygloo-external-webp" revision="yahoo" />
+  <project path="external/expat" name="yahoo/ygloo-external-expat" revision="yahoo" />
+  <project path="external/libpng" name="yahoo/ygloo-external-libpng" revision="yahoo" />
+
+  <!-- Native SDK -->
+  <project path="framework/ymagine" name="yahoo/ygloo-ymagine" revision="master" />
+</manifest>
