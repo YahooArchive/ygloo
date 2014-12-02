@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Ygloo : Cross-platform Native SDK">
+    <meta name="description" content="Ymagine : portable, highly efficient and light weight image decoding and processing library.">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
 
-    <title>Ygloo</title>
+    <title>Ymagine</title>
   </head>
 
   <body>
@@ -16,34 +16,25 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/yahoo/ygloo">View on GitHub</a>
+          <a id="forkme_banner" href="https://github.com/yahoo/ygloo-ymagine">View on GitHub</a>
 
-          <h1 id="project_title">Ygloo</h1>
-          <h2 id="project_tagline">Cross-platform Native SDK</h2>
+          <h1 id="project_title">Ymagine</h1>
+          <h2 id="project_tagline">Image decoding and processing library</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/yahoo/ygloo-ymagine/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/yahoo/ygloo-ymagine/tarball/master">Download this project as a tar.gz file</a>
+            </section>
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-
         <h1>
 <a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h1>
 
-        <h2>
-<a id="modules" class="anchor" href="#modules" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modules</h2>
-
-<h3>
-<a id="module-yosal" class="anchor" href="#module-yosal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Yosal</h3>
-<p><a href="yosal/index.html">Yosal</a> (Yahoo Operating System Abstraction
-	  Layer) is a cross-platform
-	  O.S. abstraction layer. it aims at being a lean
-	component easing writing portable code, each time the Posix
-	specification doesn't provide the right abstraction.</p>
-
-<h3>
-<a id="module-ymagine" class="anchor" href="#module-ymagine" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ymagine</h3>
-<p><a href="ymagine/index.html">Ymagine</a> is a portable, highly efficient
+<p>Ymagine is a portable, highly efficient
 	  and light weight image decoding and processing library. On Android
 	  platform, Ymagine provides a re-implementation, on top of the
 	  native API, of BitmapFactory, as usually provided by Android
@@ -52,11 +43,6 @@
 	  highly memory and speed efficient way when decoding images, and
 	  consistent set of image formats and features across all Android
 	  platform levels.</p>
-
-<h3>
-<a id="module-yperwave" class="anchor" href="#module-yperwave" aria-hidden="true"><span class="octicon octicon-link"></span></a>Yperwave</h3>
-<p><a href="yperwave/index.html">Yperwave</a> is a cross-platform,
-	  light-weight, event-based network stack.</p>
 
 <h2>
 <a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting started</h2>
@@ -130,23 +116,15 @@ and other Repo commands, see the <a href="http://source.android.com/source/devel
 <h4>
 <a id="for-local-host-linux-macosx" class="anchor" href="#for-local-host-linux-macosx" aria-hidden="true"><span class="octicon octicon-link"></span></a>For local host (Linux, MacOSX)</h4>
 
-<div class="highlight highlight-bash"><pre>make all</pre></div>
+<div class="highlight highlight-bash"><pre>make module-ymagine native release</pre></div>
 
-<p>Which is equivalent to</p>
-
-<div class="highlight highlight-bash"><pre>make all native debug</pre></div>
-
-<h4>
-<a id="for-android" class="anchor" href="#for-android" aria-hidden="true"><span class="octicon octicon-link"></span></a>For Android</h4>
-
-<p>Make sure you have a variable ANDROID_HOME set to the location of Android SDK on your system.</p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Ygloo maintained by <a href="https://github.com/yahoo">yahoo</a></p>
+        <p class="copyright">Ymagine maintained by <a href="https://github.com/yahoo">Yahoo</a></p>
       </footer>
     </div>
 
