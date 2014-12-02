@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['cabundle',['cabundle',['../httpsettings_8c.html#a3301d72bfe5649d4155355ff40a53cb3',1,'httpsettings.c']]],
+  ['cachedata',['cachedata',['../struct_http_request_struct.html#a0495ea659084352c9c3c235e1cc13438',1,'HttpRequestStruct']]],
+  ['cachefirst',['cacheFirst',['../struct_http_pool_struct.html#ad6eb6f7c0cae3b7e982c650cfb3cb65a',1,'HttpPoolStruct']]],
+  ['cachehints',['cachehints',['../struct_http_request_struct.html#ade29309c659b812ef979dc637dd791df',1,'HttpRequestStruct']]],
+  ['cachelast',['cacheLast',['../struct_http_pool_struct.html#a5d87322cc4d7b989c51a6a945bd39418',1,'HttpPoolStruct']]],
+  ['cachelookup',['cachelookup',['../struct_cacher_struct.html#ac50ac2897cb5b0a3e90b83cc25e90ded',1,'CacherStruct']]],
+  ['cacheprogress',['cacheProgress',['../struct_http_pool_struct.html#a7d27b7bed1ade6b00bb47205723b9131',1,'HttpPoolStruct']]],
+  ['cacher',['cacher',['../struct_http_pool_struct.html#ad723f73d3c3847de5744d0e686d9903b',1,'HttpPoolStruct::cacher()'],['../struct_http_request_struct.html#a849bf8a98cdc7f2d3babc1d1af1b2bcc',1,'HttpRequestStruct::cacher()']]],
+  ['cacheupdate',['cacheupdate',['../struct_cacher_struct.html#a3bab95d445a79ed357b5b5b6ede82eb6',1,'CacherStruct']]],
+  ['caching',['caching',['../struct_http_pool_struct.html#a0955756dbb3c15725a1281ce9c354f5b',1,'HttpPoolStruct']]],
+  ['callback',['callback',['../struct_http_request_struct.html#aa08de75de7167b9a7d1b5aa0ab80612e',1,'HttpRequestStruct']]],
+  ['cancelledrequests',['cancelledRequests',['../struct_http_pool_struct.html#aca02370c9ead1bc13d451e8a76330543',1,'HttpPoolStruct']]],
+  ['cancelrequested',['cancelRequested',['../struct_http_request_struct.html#a7391be8063540f716bc2db9308b38f0d',1,'HttpRequestStruct']]],
+  ['cancelrequestedtimeoutns',['cancelRequestedTimeoutNs',['../struct_http_request_struct.html#adb73f15be5807e392c843c61bfa30150',1,'HttpRequestStruct']]],
+  ['capacitymisses',['capacityMisses',['../struct_cache_telemetry_struct.html#a8dce954396e75d94506ed26760f345fa',1,'CacheTelemetryStruct']]],
+  ['cm',['cm',['../struct_http_pool_struct.html#ad0897c51174b5cac71ee074998364a15',1,'HttpPoolStruct']]],
+  ['completed',['completed',['../struct_http_request_struct.html#ac9d833304fa1fd0b4b1dedc669c45cb4',1,'HttpRequestStruct']]],
+  ['compulsarymisses',['compulsaryMisses',['../struct_cache_telemetry_struct.html#a26aa080c07102a500251516c7f5447fb',1,'CacheTelemetryStruct']]],
+  ['connecttimeout',['connectTimeout',['../struct_http_request_struct.html#af7894698bbd93956889129aa765655a9',1,'HttpRequestStruct']]],
+  ['curl',['curl',['../struct_http_request_struct.html#a3194b6b90af21e5f5a7b1e6ad004fbfb',1,'HttpRequestStruct']]],
+  ['curlshare',['curlshare',['../struct_http_pool_struct.html#a9d5726fb2ab5d9b536096e29591c3dca',1,'HttpPoolStruct']]]
+];
