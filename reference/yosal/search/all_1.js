@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['allocobject',['AllocObject',['../struct_j_n_i_native_interface.html#aaeaa7ae4982e2e4c0d5bc0ad8331ee0f',1,'JNINativeInterface']]],
+  ['alog_5fdebug',['ALOG_DEBUG',['../android_8h.html#a947d3357fc2302621966dfb122cc48dd',1,'android.h']]],
+  ['alog_5fset_5floglevel',['ALOG_SET_LOGLEVEL',['../android_8h.html#a916065a78dbc384f6716c9edd5bc6a91',1,'android.h']]],
+  ['alogd',['ALOGD',['../yobject_8c.html#a90301d3124057e82aef43547477a7fd2',1,'ALOGD():&#160;yobject.c'],['../android_8h.html#a90301d3124057e82aef43547477a7fd2',1,'ALOGD():&#160;android.h']]],
+  ['aloge',['ALOGE',['../android_8h.html#afaa15f22f36f95df4eecd9256880d1f6',1,'android.h']]],
+  ['alogi',['ALOGI',['../android_8h.html#a15d5d9c34b4d5835e5467f3998c51991',1,'android.h']]],
+  ['alogv',['ALOGV',['../android_8h.html#a0dbc2a7b5c6bc35ad41323c09ae3d4f8',1,'android.h']]],
+  ['alogw',['ALOGW',['../android_8h.html#a2b4f33b3c0a914083368a7414c6f0fa9',1,'android.h']]],
+  ['android_2eh',['android.h',['../android_8h.html',1,'']]],
+  ['android_5fjni_2eh',['android_jni.h',['../android__jni_8h.html',1,'']]],
+  ['android_5flog_2eh',['android_log.h',['../android__log_8h.html',1,'']]],
+  ['android_5flog_5fdebug',['ANDROID_LOG_DEBUG',['../android__log_8h.html#afb8ac810cc71f3ad8cdccae79f4cc6b6a3357428f473998c530d5de9519a74d45',1,'android_log.h']]],
+  ['android_5flog_5fdefault',['ANDROID_LOG_DEFAULT',['../android__log_8h.html#afb8ac810cc71f3ad8cdccae79f4cc6b6a78eac1c0035b045de012f3a42660c1e0',1,'android_log.h']]],
+  ['android_5flog_5ferror',['ANDROID_LOG_ERROR',['../android__log_8h.html#afb8ac810cc71f3ad8cdccae79f4cc6b6af1067b5ff6e64a6ece3249c113d2d164',1,'android_log.h']]],
+  ['android_5flog_5ffatal',['ANDROID_LOG_FATAL',['../android__log_8h.html#afb8ac810cc71f3ad8cdccae79f4cc6b6a28ceb8fa306acd280b7b891214ec2de2',1,'android_log.h']]],
+  ['android_5flog_5finfo',['ANDROID_LOG_INFO',['../android__log_8h.html#afb8ac810cc71f3ad8cdccae79f4cc6b6ad46329103f1e9bf318b889f331d1ea8b',1,'android_log.h']]],
+  ['android_5flog_5fsilent',['ANDROID_LOG_SILENT',['../android__log_8h.html#afb8ac810cc71f3ad8cdccae79f4cc6b6a8daee540c7d1fc04a9dfecc2db988f3b',1,'android_log.h']]],
+  ['android_5flog_5funknown',['ANDROID_LOG_UNKNOWN',['../android__log_8h.html#afb8ac810cc71f3ad8cdccae79f4cc6b6a6927fcfc48b12aa4c2495182c1a77abc',1,'android_log.h']]],
+  ['android_5flog_5fverbose',['ANDROID_LOG_VERBOSE',['../android__log_8h.html#afb8ac810cc71f3ad8cdccae79f4cc6b6a0adbaa5c45010323cfffffa93234578c',1,'android_log.h']]],
+  ['android_5flog_5fwarn',['ANDROID_LOG_WARN',['../android__log_8h.html#afb8ac810cc71f3ad8cdccae79f4cc6b6a14a2da1996b5063456ac916077f2597e',1,'android_log.h']]],
+  ['android_5flogpriority',['android_LogPriority',['../android__log_8h.html#afb8ac810cc71f3ad8cdccae79f4cc6b6',1,'android_LogPriority():&#160;android_log.h'],['../android__log_8h.html#a73e497bb346e9243cbb55a8e2423c712',1,'android_LogPriority():&#160;android_log.h']]],
+  ['array_2ec',['array.c',['../array_8c.html',1,'']]],
+  ['array_2eh',['array.h',['../array_8h.html',1,'']]],
+  ['attachcurrentthread',['AttachCurrentThread',['../struct_j_n_i_invoke_interface.html#abcdc26f5facdb9f6e1550616a8ca1d56',1,'JNIInvokeInterface']]],
+  ['attachcurrentthreadasdaemon',['AttachCurrentThreadAsDaemon',['../struct_j_n_i_invoke_interface.html#a00bb873d81be3814dda5a566a7213ce3',1,'JNIInvokeInterface']]]
+];

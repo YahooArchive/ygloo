@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['refcount',['refcount',['../group__yobject.html#ga034dd6d0bf74938fec81bc2fac984a6f',1,'yobjectstruct']]],
+  ['registernatives',['RegisterNatives',['../struct_j_n_i_native_interface.html#a2bc02fa3fdfa74a8c2786cc71136258d',1,'JNINativeInterface']]],
+  ['release',['release',['../group__yobject.html#gaea1aa05199186bcebd3fe7d6306202c1',1,'yobjectstruct']]],
+  ['releasebooleanarrayelements',['ReleaseBooleanArrayElements',['../struct_j_n_i_native_interface.html#a6050a32623e56a2c516df881169ca3b2',1,'JNINativeInterface']]],
+  ['releasebytearrayelements',['ReleaseByteArrayElements',['../struct_j_n_i_native_interface.html#aa26f856b90fa920195d86cb4b76f4403',1,'JNINativeInterface']]],
+  ['releasechararrayelements',['ReleaseCharArrayElements',['../struct_j_n_i_native_interface.html#a36441f911b985a059e13853cff72ede7',1,'JNINativeInterface']]],
+  ['releasedoublearrayelements',['ReleaseDoubleArrayElements',['../struct_j_n_i_native_interface.html#a0b8c3530aa1932aaa15053827521ee8b',1,'JNINativeInterface']]],
+  ['releaseelement',['releaseElement',['../struct_y_array_struct.html#a3a7cdc72dc42bde54ac75a37617803b8',1,'YArrayStruct']]],
+  ['releasefloatarrayelements',['ReleaseFloatArrayElements',['../struct_j_n_i_native_interface.html#ab09d4e7ffb93925fe1fa1d3fe83f3627',1,'JNINativeInterface']]],
+  ['releaseintarrayelements',['ReleaseIntArrayElements',['../struct_j_n_i_native_interface.html#a81727e86947b406498c4e53d19d49f9f',1,'JNINativeInterface']]],
+  ['releaselongarrayelements',['ReleaseLongArrayElements',['../struct_j_n_i_native_interface.html#aae5a7ea0d31f5d6d1885e70fbfab28ef',1,'JNINativeInterface']]],
+  ['releaseprimitivearraycritical',['ReleasePrimitiveArrayCritical',['../struct_j_n_i_native_interface.html#ae879e30feb702b2f2c50726fe3211ecc',1,'JNINativeInterface']]],
+  ['releaseshortarrayelements',['ReleaseShortArrayElements',['../struct_j_n_i_native_interface.html#a8c19f7a7fdb9777013fc794330905532',1,'JNINativeInterface']]],
+  ['releasestringchars',['ReleaseStringChars',['../struct_j_n_i_native_interface.html#a363133db4d26ef8ed4accd23cb807089',1,'JNINativeInterface']]],
+  ['releasestringcritical',['ReleaseStringCritical',['../struct_j_n_i_native_interface.html#a7ae8d5ebf8401b7490378ba1776afb40',1,'JNINativeInterface']]],
+  ['releasestringutfchars',['ReleaseStringUTFChars',['../struct_j_n_i_native_interface.html#a011e2f8f4c7b025c37cc12795a5c65a4',1,'JNINativeInterface']]],
+  ['reserved0',['reserved0',['../struct_j_n_i_native_interface.html#a66886069dfdc1bf70964ffa0c9f152e7',1,'JNINativeInterface::reserved0()'],['../struct_j_n_i_invoke_interface.html#a1e45369a2faf34db2441e17c2b59b4c5',1,'JNIInvokeInterface::reserved0()']]],
+  ['reserved1',['reserved1',['../struct_j_n_i_native_interface.html#a855556a27b32d2c64350a7c8ffe75ebf',1,'JNINativeInterface::reserved1()'],['../struct_j_n_i_invoke_interface.html#a34cafbab0675adc150e12eaf4710eb37',1,'JNIInvokeInterface::reserved1()']]],
+  ['reserved2',['reserved2',['../struct_j_n_i_native_interface.html#a7af2582938faf043411e76f8aca6d250',1,'JNINativeInterface::reserved2()'],['../struct_j_n_i_invoke_interface.html#a42cba639995c9d29a45b7581c7350010',1,'JNIInvokeInterface::reserved2()']]],
+  ['reserved3',['reserved3',['../struct_j_n_i_native_interface.html#ae96ae8dd121221995a5071764606d9a1',1,'JNINativeInterface']]],
+  ['result',['result',['../structbase64__encodestate.html#acb36646a892355db4c7a9a3ca6c8db50',1,'base64_encodestate']]]
+];
