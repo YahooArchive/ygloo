@@ -1,10 +1,133 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html>
+
   <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Ygloo : Cross-platform Native SDK">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
     <title>Ygloo</title>
   </head>
 
   <body>
-    <h1>Ygloo</h1>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/yahoo/ygloo">View on GitHub</a>
+
+          <h1 id="project_title">Ygloo</h1>
+          <h2 id="project_tagline">Cross-platform Native SDK</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/yahoo/ygloo/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/yahoo/ygloo/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h1>
+
+<h2>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting started</h2>
+
+<h3>
+<a id="downloading-the-source" class="anchor" href="#downloading-the-source" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downloading the source</h3>
+
+<h4>
+<a id="installing-repo" class="anchor" href="#installing-repo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing repo</h4>
+
+<p>Repo is a tool that makes it easier to work with Git for project involving a large collection of repositories. It was created and is mostly used to manage Android Open-Source codebase. For more information about Repo, see the <a href="https://source.android.com/source/developing.html">Developing</a> section of Android project.</p>
+
+<p>Ygloo is built on top of some open-source projects, and combines several projects into one platform. as such, Repo provides a convenient way to manage this collection of repositories.</p>
+
+<p>To install Repo:</p>
+
+<ol>
+<li>
+<p>Make sure you have a bin/ directory in your home directory and that it is included in your path:</p>
+
+<div class="highlight highlight-bash"><pre>mkdir <span class="pl-k">~</span>/bin
+PATH=<span class="pl-k">~</span>/bin:<span class="pl-vo">$PATH</span></pre></div>
+</li>
+<li>
+<p>Download the Repo tool and ensure that it is executable:</p>
+
+<div class="highlight highlight-bash"><pre>curl https://storage.googleapis.com/git-repo-downloads/repo <span class="pl-k">&gt;</span> <span class="pl-k">~</span>/bin/repo
+chmod a+x <span class="pl-k">~</span>/bin/repo</pre></div>
+</li>
+</ol>
+
+<h4>
+<a id="initializing-repo-client" class="anchor" href="#initializing-repo-client" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initializing repo client</h4>
+
+<p>After installing Repo, set up your client to access the Android source repository:</p>
+
+<ol>
+<li>
+<p>Create an empty directory to hold your working files. If you're using MacOS, this has to be on a case-sensitive filesystem. Give it any name you like:</p>
+
+<div class="highlight highlight-bash"><pre>mkdir WORKING_DIRECTORY
+<span class="pl-s3">cd</span> WORKING_DIRECTORY</pre></div>
+</li>
+<li>
+<p>Run repo init to bring down the latest version of Repo with all its most recent bug fixes. You must specify a URL for the manifest, which specifies where the various repositories included in the Android source will be placed within your working directory.</p>
+
+<div class="highlight highlight-bash"><pre>repo init -u git@github.com:yahoo/ygloo.git</pre></div>
+
+<p>To check out a branch other than "master", specify it with -b:</p>
+
+<div class="highlight highlight-bash"><pre>repo init -u git@github.com:yahoo/ygloo.git -b v0.5.0</pre></div>
+</li>
+<li><p>When prompted, configure Repo with your real name and email address. To use the Gerrit code-review tool, you will need an email address that is connected with a registered Google account. Make sure this is a live address at which you can receive messages. The name that you provide here will show up in attributions for your code submissions.</p></li>
+</ol>
+
+<p>A successful initialization will end with a message stating that Repo is initialized in your working directory. Your client directory should now contain a .repo directory where files such as the manifest will be kept.</p>
+
+<h4>
+<a id="downloading-source-tree" class="anchor" href="#downloading-source-tree" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downloading source tree</h4>
+
+<p>To pull down the Ygloo source tree to your working directory from the repositories as specified in the default manifest, run</p>
+
+<div class="highlight highlight-bash"><pre>repo sync</pre></div>
+
+<p>The Ygloo Native SDK source files and build system will be located under their project names. For more about <code>repo sync</code>
+and other Repo commands, see the <a href="http://source.android.com/source/developing.html">Developing</a> section of Android documentation.</p>
+
+<h3>
+<a id="building" class="anchor" href="#building" aria-hidden="true"><span class="octicon octicon-link"></span></a>Building</h3>
+
+<h4>
+<a id="for-local-host-linux-macosx" class="anchor" href="#for-local-host-linux-macosx" aria-hidden="true"><span class="octicon octicon-link"></span></a>For local host (Linux, MacOSX)</h4>
+
+<div class="highlight highlight-bash"><pre>make all</pre></div>
+
+<p>Which is equivalent to</p>
+
+<div class="highlight highlight-bash"><pre>make all native debug</pre></div>
+
+<h4>
+<a id="for-android" class="anchor" href="#for-android" aria-hidden="true"><span class="octicon octicon-link"></span></a>For Android</h4>
+
+<p>Make sure you have a variable ANDROID_HOME set to the location of Android SDK on your system.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Ygloo maintained by <a href="https://github.com/yahoo">yahoo</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
